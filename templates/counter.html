@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Counter</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Count Result:</h1>
+        <p>Number of words: {{ amount }}</p>
+        <p>Total length of letters: {{ total_length }}</p>
+        <p>Total length of Uppercase letters: {{ uppercase_count }}</p>
+        <p>Total length of Lowercase letters: {{ lowercase_count }}</p>
+        <a href="{% url 'index' %}">Back to Home</a>
+    </div>
+</body>
+</html>
