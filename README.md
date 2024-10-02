@@ -33,7 +33,8 @@ This project is a simple Django-based backend application that implements user a
    python manage.py migrate
 
 5. Start the server:
-      ```bashpython manage.py runserver
+      ```bash
+   python manage.py runserver
 
 
 
