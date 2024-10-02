@@ -18,4 +18,4 @@ This project is a simple Django-based backend application that implements user a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Basic-Django-Authentication.git
+   git clone https://github.com/Dhapor/Basic-Django-Authentication.git
