@@ -36,6 +36,9 @@ This project is a simple Django-based backend application that implements user a
       ```bash
    python manage.py runserver
 
+##Usage
+- Visit the home page to sign up or log in.
+- Once logged in, you'll see a personalized welcome message.
 
 
 
