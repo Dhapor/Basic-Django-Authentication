@@ -19,3 +19,22 @@ This project is a simple Django-based backend application that implements user a
 1. Clone the repository:
    ```bash
    git clone https://github.com/Dhapor/Basic-Django-Authentication.git
+
+2. Navigate into the project directory:
+      ```bash
+   cd Django-User-Authentication-System
+
+3. Install the dependencies:
+      ```bash
+   pip install -r requirements.txt
+
+4. Run the migrations:
+      ```bash
+   python manage.py migrate
+
+5. Start the server:
+      ```bashpython manage.py runserver
+
+
+
+
